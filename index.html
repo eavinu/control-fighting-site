@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CONTROL | System of Fighting — MMA, BJJ ואימוני לחימה בערד</title>
+  <meta name="description" content="CONTROL System of Fighting — מיכאל שפירא ואורי אזולאי. אימוני MMA, BJJ, נוגי, איגרוף ופד־וורק בערד. לכל הרמות." />
+  <meta property="og:title" content="CONTROL | System of Fighting" />
+  <meta property="og:description" content="אימוני לחימה מקצועיים עם מיכאל שפירא ואורי אזולאי — MMA, BJJ, נוגי, פד־וורק ומנטליות של לוחמים." />
+  <meta property="og:image" content="assets/control-logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800;900&family=Heebo:wght@500;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#060607;--panel:#101114;--panel2:#17191e;--white:#f6f6f2;--muted:#b8bcc6;--red:#d71920;--red2:#ff343b;--steel:#737985;--line:rgba(255,255,255,.12);--shadow:0 30px 90px rgba(0,0,0,.5)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--white);font-family:Assistant,Heebo,system-ui,sans-serif;overflow-x:hidden} a{text-decoration:none;color:inherit} img{max-width:100%;display:block}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 10%,rgba(215,25,32,.34),transparent 28%),radial-gradient(circle at 85% 0%,rgba(255,255,255,.12),transparent 22%),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:auto,auto,58px 58px,58px 58px;opacity:.8;z-index:-3}
+    .noise{position:fixed;inset:0;pointer-events:none;opacity:.13;mix-blend-mode:screen;z-index:50;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E")}
+    .nav{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:40;width:min(1160px,calc(100% - 28px));height:72px;border:1px solid var(--line);border-radius:18px;background:rgba(8,8,9,.72);backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-between;padding:8px 12px 8px 22px;box-shadow:0 20px 70px rgba(0,0,0,.34)}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900}.brand img{width:96px;height:46px;object-fit:contain;background:white;border-radius:10px;padding:4px}.brand span{font-family:Oswald,Heebo,sans-serif;letter-spacing:.9px;text-transform:uppercase}.nav-links{display:flex;gap:24px;font-weight:800;color:#d6d8df}.nav-cta{background:var(--red);padding:13px 18px;border-radius:12px;font-weight:900;box-shadow:0 0 0 1px rgba(255,255,255,.14),0 14px 34px rgba(215,25,32,.33)}
+    .hero{min-height:100vh;position:relative;display:grid;align-items:center;padding:130px 20px 70px;isolation:isolate}.hero:after{content:"CONTROL";position:absolute;left:-5vw;bottom:4vh;font:900 clamp(80px,18vw,250px)/.8 Oswald,sans-serif;letter-spacing:-6px;color:rgba(255,255,255,.035);z-index:-2}.wrap{width:min(1160px,100%);margin:auto}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}.kicker{display:inline-flex;align-items:center;gap:10px;color:#fff;background:rgba(215,25,32,.14);border:1px solid rgba(215,25,32,.44);border-radius:999px;padding:9px 14px;font-weight:900}.kicker:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--red2);box-shadow:0 0 24px var(--red2)}
+    h1{font:900 clamp(48px,9vw,116px)/.88 Heebo,Assistant,sans-serif;letter-spacing:-3px;margin:22px 0 18px;text-transform:uppercase}.outline{-webkit-text-stroke:1px rgba(255,255,255,.75);color:transparent;text-shadow:none}.lead{font-size:clamp(20px,2.4vw,30px);line-height:1.35;color:#e3e5eb;font-weight:800;max-width:720px;margin:0}.lead strong{color:white;background:linear-gradient(transparent 58%,rgba(215,25,32,.55) 58%)}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:14px;padding:16px 22px;font-weight:900;font-size:18px}.btn-primary{background:var(--red);border-color:rgba(255,255,255,.14)}.btn-dark{background:rgba(255,255,255,.08)}
+    .fight-card{position:relative;min-height:560px}.logo-card{position:absolute;top:0;right:0;left:8%;background:#fff;border-radius:24px;padding:20px;box-shadow:var(--shadow);transform:rotate(-2deg);border:1px solid rgba(255,255,255,.15)}.hero-photo{position:absolute;bottom:8px;left:0;width:58%;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.14);transform:rotate(3deg)}.stats{position:absolute;right:6%;bottom:0;width:52%;background:rgba(16,17,20,.88);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow);backdrop-filter:blur(14px)}.stats b{font:700 44px/1 Oswald,sans-serif;color:var(--red2)}.stats span{display:block;color:var(--muted);font-size:17px;font-weight:800;margin-top:5px}.slash{position:absolute;inset:22% -10% auto auto;width:120%;height:12px;background:var(--red);transform:rotate(-18deg);box-shadow:0 0 40px rgba(215,25,32,.65);z-index:-1}
+    section{padding:88px 20px}.section-title{font:900 clamp(34px,5vw,70px)/1 Heebo,Assistant,sans-serif;letter-spacing:-1px;margin:0 0 16px}.section-text{font-size:21px;line-height:1.55;color:#d6d8df;font-weight:700;max-width:850px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.card{background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 18px 55px rgba(0,0,0,.23)}.card h3{font-size:27px;margin:0 0 10px}.card p{font-size:18px;color:#c7cbd4;line-height:1.55;font-weight:700;margin:0}.icon{width:58px;height:58px;border-radius:16px;display:grid;place-items:center;background:rgba(215,25,32,.16);border:1px solid rgba(215,25,32,.38);font-size:28px;margin-bottom:14px}
+    .parallax{min-height:430px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:#111}.parallax:before{content:"";position:absolute;inset:-10%;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.75)),url('assets/michael_openmat.jpg') center/cover fixed;filter:contrast(1.12) saturate(.95)}.parallax:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,rgba(215,25,32,.35),transparent 45%,rgba(255,255,255,.07))}.parallax div{position:relative;z-index:1;padding:20px}.parallax h2{font:900 clamp(42px,7vw,92px)/.9 Heebo,sans-serif;margin:0;text-shadow:0 20px 60px black}.parallax p{font-size:24px;font-weight:900;color:#f0f1f4;margin:18px auto 0;max-width:760px;line-height:1.35}
+    .coaches{display:grid;grid-template-columns:1fr 1fr;gap:22px}.coach{position:relative;overflow:hidden;border-radius:30px;min-height:560px;background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);display:grid;align-content:end}.coach>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(.25) contrast(1.12);opacity:.78}.coach:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 15%,rgba(0,0,0,.72) 58%,rgba(0,0,0,.94))}.coach-content{position:relative;z-index:1;padding:28px}.badge{display:inline-flex;background:var(--red);font-weight:900;border-radius:999px;padding:7px 12px;margin-bottom:12px}.coach h3{font:900 42px/1 Heebo,sans-serif;margin:0 0 8px}.coach p{font-size:19px;line-height:1.5;color:#e6e8ee;font-weight:750;margin:0 0 16px}.coach ul{list-style:none;padding:0;margin:0;display:grid;gap:8px;color:#d4d7df;font-weight:800}.coach li:before{content:"✦";color:var(--red2);margin-left:8px}
+    .gallery{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:30px}.shot{min-height:210px;border-radius:22px;overflow:hidden;border:1px solid var(--line);background:#111;position:relative}.shot:nth-child(1),.shot:nth-child(4){grid-column:span 2;grid-row:span 2}.shot:nth-child(2),.shot:nth-child(3),.shot:nth-child(5),.shot:nth-child(6){grid-column:span 2}.shot img{width:100%;height:100%;object-fit:cover;filter:grayscale(.1) contrast(1.1)}.shot span{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.72);border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-weight:900;font-size:14px}
+    .contact{background:linear-gradient(135deg,#111217,#250507 60%,#8d1116);border:1px solid rgba(255,255,255,.16);border-radius:34px;padding:42px;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;box-shadow:var(--shadow);position:relative;overflow:hidden}.contact:before{content:"";position:absolute;left:-90px;top:-90px;width:300px;height:300px;border-radius:50%;background:rgba(215,25,32,.35);filter:blur(8px)}.contact p{font-size:22px;line-height:1.45;color:#e2e4ea;font-weight:800}.contact-links{display:grid;gap:12px;position:relative;z-index:1}.contact-links a{background:rgba(255,255,255,.95);color:#0b0c0f;border-radius:16px;padding:16px 18px;font-size:18px;font-weight:900}.fine{font-size:14px;color:#8d929d;margin-top:12px} footer{padding:34px 20px;text-align:center;color:#8f949e;font-weight:800;background:#030304}
+    @media(max-width:900px){.nav{height:auto;border-radius:18px}.nav-links{display:none}.brand img{width:82px}.hero-grid,.coaches,.contact{grid-template-columns:1fr}.fight-card{min-height:470px}.logo-card{left:0}.hero-photo{width:62%}.stats{width:58%}.cards{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.shot,.shot:nth-child(1),.shot:nth-child(4),.shot:nth-child(2),.shot:nth-child(3),.shot:nth-child(5),.shot:nth-child(6){grid-column:span 1;grid-row:span 1;min-height:190px}.parallax:before{background-attachment:scroll}h1{letter-spacing:-1px}}
+  </style>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <nav class="nav" aria-label="ניווט ראשי">
+    <a class="brand" href="#top"><img src="assets/control-logo.jpg" alt="CONTROL System of Fighting logo"><span>System of Fighting</span></a>
+    <div class="nav-links"><a href="#programs">אימונים</a><a href="#coaches">מאמנים</a><a href="#gallery">תמונות</a><a href="#contact">יצירת קשר</a></div>
+    <a class="nav-cta" href="https://wa.me/972548143884?text=%D7%94%D7%99%D7%99%20%D7%9E%D7%99%D7%9B%D7%90%D7%9C%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%90%D7%99%D7%9E%D7%95%D7%A0%D7%99%20CONTROL" target="_blank" rel="noopener">לתיאום אימון</a>
+  </nav>
+  <main id="top">
+    <header class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="kicker">MMA · BJJ · NO-GI · PADWORK</div>
+          <h1>CONTROL<br><span class="outline">YOUR FIGHT</span></h1>
+          <p class="lead"><strong>מיכאל שפירא ואורי אזולאי</strong> מביאים לערד אימוני לחימה ממוקדים: טכניקה, כושר, משמעת, ביטחון עצמי וקהילה של אנשים שבאים לעבוד באמת.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#contact">אני רוצה להצטרף</a><a class="btn btn-dark" href="#programs">מה מתאמנים?</a></div>
+        </div>
+        <div class="fight-card" aria-label="CONTROL fight visuals">
+          <div class="slash"></div>
+          <div class="logo-card"><img src="assets/control-logo.jpg" alt="CONTROL System of Fighting"></div>
+          <div class="hero-photo"><img src="assets/ori_victory.jpg" alt="אורי אזולאי לאחר ניצחון"></div>
+          <div class="stats"><b>6-1-0</b><span>אורי אזולאי — Fighter record מהפרופיל</span><br><b>Brown Belt</b><span>מיכאל שפירא — BJJ brown belt</span></div>
+        </div>
+      </div>
+    </header>
+
+    <section id="programs"><div class="wrap">
+      <div class="kicker">אימונים לכל הרמות</div>
+      <h2 class="section-title">מהיסודות ועד עבודה של לוחמים</h2>
+      <p class="section-text">מתאים למי שרק מתחיל את המסע, למתאמנים שרוצים דיוק, וללוחמים שרוצים להעמיק טכניקה וחדות. הדגש: לזוז נכון, להבין את המשחק, לעבוד חכם ולהתקדם עקבית.</p>
+      <div class="cards">
+        <article class="card"><div class="icon">🥊</div><h3>MMA & Padwork</h3><p>עבודת עמידה, תנועה, קומבינציות, תגובה, פוקוס וכושר קרבי — עם התאמה לרמה.</p></article>
+        <article class="card"><div class="icon">🥋</div><h3>BJJ & No-Gi</h3><p>קרקע, שליטה, בריחות, הכנעות וגלגולים — מהבסיס ועד ספארינג מתקדם.</p></article>
+        <article class="card"><div class="icon">⚔️</div><h3>Open Mat וקהילה</h3><p>מזרן פתוח, פרטנרים טובים, אורחים ממועדונים אחרים ואווירה משפחתית של התקדמות.</p></article>
+      </div>
+    </div></section>
+
+    <section class="parallax"><div><h2>TRAIN. LEARN. FIGHT TOGETHER.</h2><p>לא רק אימון — מערכת שמחברת טכניקה, מנטליות, ביטחון עצמי ודרך.</p></div></section>
+
+    <section id="coaches"><div class="wrap">
+      <div class="kicker">הצוות</div>
+      <h2 class="section-title">שני מאמנים. גישה אחת: עבודה מקצועית.</h2>
+      <div class="coaches">
+        <article class="coach"><img src="assets/michael_padwork.jpg" alt="מיכאל שפירא באימון"><div class="coach-content"><span class="badge">Coach</span><h3>מיכאל שפירא</h3><p>מאמן MMA ו־BJJ ב־PAGI MMA ערד. חגורה חומה ב־BJJ, עם גישה שמדגישה ריכוז, מטרות, התקדמות וביטחון עצמי.</p><ul><li>MMA, BJJ, נוגי ופד־וורק</li><li>מתאים לילדים, נוער ובוגרים</li><li>טלפון מהפרופיל: 054-814-3884</li></ul></div></article>
+        <article class="coach"><img src="assets/ori_training.jpg" alt="אורי אזולאי באימון"><div class="coach-content"><span class="badge">Fighter</span><h3>אורי אזולאי</h3><p>לוחם MMA עם רקורד 6-1-0, חי את הדרך של אימונים, תחרות, מחנות אימון והתפתחות מתמדת.</p><ul><li>MMA Fighter</li><li>ניסיון תחרותי פעיל</li><li>גישה של משמעת, עבודה וחדות</li></ul></div></article>
+      </div>
+    </div></section>
+
+    <section id="gallery"><div class="wrap">
+      <div class="kicker">מתוך האינסטגרם</div>
+      <h2 class="section-title">רגעים מהמזרן ומהדרך</h2>
+      <div class="gallery">
+        <figure class="shot"><img src="assets/ori_victory.jpg" alt="אורי אחרי ניצחון"><span>Win secured</span></figure>
+        <figure class="shot"><img src="assets/michael_openmat.jpg" alt="Open Mat ב-PAGI"><span>Open Mat</span></figure>
+        <figure class="shot"><img src="assets/michael_padwork.jpg" alt="Padwork"><span>Padwork</span></figure>
+        <figure class="shot"><img src="assets/ori_training.jpg" alt="Training camp"><span>Training</span></figure>
+        <figure class="shot"><img src="assets/michael_profile.jpg" alt="מיכאל שפירא"><span>Michael</span></figure>
+        <figure class="shot"><img src="assets/ori_profile.jpg" alt="אורי אזולאי"><span>Ori</span></figure>
+      </div>
+      <p class="fine">התמונות נלקחו מתצוגת האינסטגרם שסיפקת לצורך טיוטת אתר. לפני פרסום קבוע מומלץ לקבל אישור מפורש לשימוש.</p>
+    </div></section>
+
+    <section id="contact"><div class="wrap contact">
+      <div><div class="kicker">רוצים להתחיל?</div><h2 class="section-title">שלחו הודעה ובואו לאימון ניסיון</h2><p>ספרו בקצרה גיל, ניסיון קודם ומה המטרה — כושר, ביטחון עצמי, טכניקה, תחרות או פשוט להתחיל לזוז כמו שצריך.</p></div>
+      <div class="contact-links"><a href="https://wa.me/972548143884?text=%D7%94%D7%99%D7%99%20%D7%9E%D7%99%D7%9B%D7%90%D7%9C%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%90%D7%99%D7%9E%D7%95%D7%A0%D7%99%20CONTROL" target="_blank" rel="noopener">וואטסאפ מיכאל: 054-814-3884</a><a href="https://www.instagram.com/michael__shapira1/" target="_blank" rel="noopener">Instagram: @michael__shapira1</a><a href="https://www.instagram.com/oriazulay_mma/" target="_blank" rel="noopener">Instagram: @oriazulay_mma</a></div>
+    </div></section>
+  </main>
+  <footer>CONTROL System of Fighting · MMA · BJJ · No-Gi · Padwork · Arad</footer>
+</body>
+</html>
