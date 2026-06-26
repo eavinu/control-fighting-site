@@ -3,6 +3,9 @@ michael__shapira1.html
 oriazulay_mma.html
 download_assets.py
 
+# local provider state
+.vercel/
+
 # OS/editor
 .DS_Store
 Thumbs.db

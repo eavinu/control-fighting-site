@@ -16,6 +16,11 @@ python -m http.server 5188
 
 `http://127.0.0.1:5188/`
 
+## כתובות אונליין
+
+- Vercel production: https://control-fighting-site.vercel.app
+- GitHub repo: https://github.com/eavinu/control-fighting-site
+
 ## מקורות/פרטים שנאספו
 
 - לוגו שסופק ע"י ערן: `assets/control-logo.jpg`
